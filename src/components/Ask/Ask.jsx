@@ -36,8 +36,8 @@ const Ask = () => {
     <div>
       <section className="ask">
         <form onSubmit={onSubmit}>
-          <h1>Have a Question?</h1>
-          <h2>Ask!</h2>
+          <h1 className='ask-head1'>Have a Question?</h1>
+          <h2 className='ask-head2'>Ask!</h2>
           <div className="input-box">
             <label className='label-head'>Name</label>
             <input

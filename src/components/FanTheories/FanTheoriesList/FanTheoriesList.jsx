@@ -20,39 +20,42 @@ const TheoryList = () => {
     });
 
     return (
-        <div className='theory-list'>
-            <div className='column'>
-                {column1.map((article, index) => (
-                    <div className='card-container' key={index}>
-                        <FanTheoriesCard
-                            imageUrl={article.imageUrl}
-                            title={article.title}
-                            description={article.description}
-                        />
-                    </div>
-                ))}
-            </div>
-            <div className='column'>
-                {column2.map((article, index) => (
-                    <div className='theory-card-container' key={index}>
-                        <FanTheoriesCard
-                            imageUrl={article.imageUrl}
-                            title={article.title}
-                            description={article.description}
-                        />
-                    </div>
-                ))}
-            </div>
-            <div className='column'>
-                {column3.map((article, index) => (
-                    <div className='theory-card-container' key={index}>
-                        <FanTheoriesCard
-                            imageUrl={article.imageUrl}
-                            title={article.title}
-                            description={article.description}
-                        />
-                    </div>
-                ))}
+        <div className='theory'>
+            <h2 className='theory-head'>Fan Theories</h2>
+            <div className='theory-list'>
+                <div className='column'>
+                    {column1.map((article, index) => (
+                        <div className='card-container' key={index}>
+                            <FanTheoriesCard
+                                imageUrl={article.imageUrl}
+                                title={article.title}
+                                description={article.description}
+                            />
+                        </div>
+                    ))}
+                </div>
+                <div className='column'>
+                    {column2.map((article, index) => (
+                        <div className='theory-card-container' key={index}>
+                            <FanTheoriesCard
+                                imageUrl={article.imageUrl}
+                                title={article.title}
+                                description={article.description}
+                            />
+                        </div>
+                    ))}
+                </div>
+                <div className='column'>
+                    {column3.map((article, index) => (
+                        <div className='theory-card-container' key={index}>
+                            <FanTheoriesCard
+                                imageUrl={article.imageUrl}
+                                title={article.title}
+                                description={article.description}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

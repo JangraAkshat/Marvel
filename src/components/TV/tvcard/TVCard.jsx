@@ -8,6 +8,7 @@ const TVCard = ({ image, title, description, hoverText, tvURL }) => {
                 <img src={image} alt="Card" className="tv-card-image" />
                 <div className="tv-card-content">
                     <h3>{title}</h3>
+                    <br />
                     <p>{description}</p>
                 </div>
                 <div className="tv-card-hover-text">

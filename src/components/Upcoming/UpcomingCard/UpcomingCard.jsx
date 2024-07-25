@@ -8,6 +8,7 @@ const UpcomingCard = ({ image, title, description, hoverText, upcomingURL }) => 
                 <img src={image} alt="Card" className="upcoming-card-image" />
                 <div className="upcoming-card-content">
                     <h3>{title}</h3>
+                    <br />
                     <p>{description}</p>
                 </div>
                 <div className="upcoming-card-hover-text">

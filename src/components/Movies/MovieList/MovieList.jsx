@@ -13,7 +13,7 @@ const MovieList = () => {
     return (
         <div className='movie'>
 
-            <h1 className='movie-heads'>Movies</h1>
+            <h1 className='movie-head movie-heads'>Movies</h1>
 
             <h2 className='movie-heads'>Phase 1</h2>
             <div className='movies-list phase1'>

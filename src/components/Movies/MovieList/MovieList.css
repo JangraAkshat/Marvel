@@ -1,5 +1,6 @@
 .movie {
-    margin-top: 20px;
+  margin-top: 20px;
+  background-color: white;
 }
 
 .movies-list {
@@ -19,16 +20,56 @@
 }
 
 span {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .movie-heads {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(71, 70, 70);
 }
 
 hr {
   width: 60%;
+}
+
+.movie-head {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(36, 36, 36);
+}
+
+@media (max-width: 1200px) {
+  .movies-list .movie-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-list .movie-card {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  .movies-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .movie-heads {
+    font-size: 20px;
+  }
+
+  .movie-head {
+    font-size: 30px;
+  }
 }

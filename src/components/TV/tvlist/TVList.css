@@ -27,4 +27,34 @@ span {
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(36, 36, 36);
+}
+
+@media (max-width: 1200px) {
+  .tv-list .tv-card {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .tv-list .tv-card {
+    flex: 1 1 calc(100% - 20px);
+  }
+
+  .tv-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .tv-heads {
+    font-size: 20px;
+  }
+
+  .tv-head {
+    font-size: 30px;
+  }
 }

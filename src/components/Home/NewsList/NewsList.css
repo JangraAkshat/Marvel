@@ -1,16 +1,42 @@
 .news-list {
   display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 30px;
-  /* gap: 10px; */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .column {
-  width: 31.5%;
+  flex: 1 1 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .column {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 .card-container {
   margin-bottom: 20px;
+}
+
+.news-head {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(36, 36, 36);
+  margin: 20px 0;
 }

@@ -1,16 +1,41 @@
 .theory-list {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-top: 30px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 20px;
+  padding-bottom: 25px;
+}
+
+.column {
+  flex: 1 1 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
   .column {
-    width: 31.5%;
+    flex: 1 1 45%;
+    max-width: 45%;
   }
-  
-  .theory-card-container {
-    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
-  
+}
+
+.card-container {
+  margin-bottom: 20px;
+}
+
+.theory-head {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(36, 36, 36);
+  margin: 20px 0;
+}

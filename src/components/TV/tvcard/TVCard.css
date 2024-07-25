@@ -4,14 +4,16 @@
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   position: relative;
-  text-align: center; /* Center text inside card */
+  text-align: center;
+  overflow: hidden;
 }
 
 .tv-card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
+  border-color: #555;
 }
 
 .tv-card a {
@@ -26,17 +28,37 @@
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.tv-card:hover img {
+  transform: scale(1.05);
 }
 
 .tv-card-content {
-  padding: 10px; /* Add some padding for better appearance */
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center contents horizontally */
+  align-items: center;
+  transition: color 0.3s ease;
+  color: rgb(51, 50, 50);
+
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  margin-bottom: 20px;
 }
 
-.tv-card-content span {
-  margin: 0; /* Remove default margins */
+.tv-card-content h3,
+.tv-card-content p {
+  margin: 0;
+}
+
+.tv-card:hover .tv-card-content {
+  color: #555;
+  transform: translateY(10px);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .tv-card-hover-text {
@@ -51,10 +73,12 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.3s;
-  text-align: center; /* Center text inside hover text */
+  transition: opacity 0.3s, transform 0.3s;
+  text-align: center;
+  transform: translateY(-10px);
 }
 
 .tv-card:hover .tv-card-hover-text {
   opacity: 1;
+  transform: translateY(0);
 }

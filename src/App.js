@@ -14,20 +14,27 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <div className='nav'>
+        <Navbar />
+      </div>
 
-      <Routes >
-        <Route path='/home' Component={NewsList} />
-        <Route path='/movies' Component={MovieList} />
-        <Route path='/tvshows' Component={TVList} />
-        <Route path='/viewingorder' Component={ViewingOrder} />
-        <Route path='/upcoming' Component={UpcomingList} />
-        <Route path='/theories' Component={TheoryList} />
-        <Route path='/ask' Component={Ask} />
-        <Route path='/' Component={NewsList} />
-      </Routes>
+      <div className='content'>
+        <Routes >
+          <Route path='/home' Component={NewsList} />
+          <Route path='/movies' Component={MovieList} />
+          <Route path='/tvshows' Component={TVList} />
+          <Route path='/viewingorder' Component={ViewingOrder} />
+          <Route path='/upcoming' Component={UpcomingList} />
+          <Route path='/theories' Component={TheoryList} />
+          <Route path='/ask' Component={Ask} />
+          <Route path='/' Component={NewsList} />
+        </Routes>
 
-      <Footer />
+      </div>
+
+      <div className='foot'>
+        <Footer />
+      </div>
     </div>
   );
 }

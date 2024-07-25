@@ -8,6 +8,7 @@ const MovieCard = ({ image, title, description, hoverText, movieURL }) => {
                 <img src={image} alt="Card" className="movie-card-image" />
                 <div className="movie-card-content">
                     <h3>{title}</h3>
+                    <br />
                     <p>{description}</p>
                 </div>
                 <div className="movie-card-hover-text">

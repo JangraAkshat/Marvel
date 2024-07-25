@@ -40,74 +40,79 @@ const newsArticles = [
     },
     {
         imageUrl: News5,
-        title: "Go Behind the Scenes of Marvel Studios’ Signature Sound",
-        newsUrl: 'https://www.marvel.com/articles/movies/marvel-studios-imax-enhanced-sound-craft-masters'
-    },
-    {
-        imageUrl: News6,
-        title: 'Remembering Production Designer Ray Chan',
-        newsUrl: 'https://www.marvel.com/articles/movies/remembering-supervising-art-director-ray-chan'
-    },
-    {
-        imageUrl: News7,
-        title: "Marvel Studios Debuts New 'Deadpool & Wolverine' Trailer & Posters",
-        newsUrl: 'https://www.marvel.com/articles/movies/deadpool-and-wolverine-trailer-posters'
-    },
-    {
-        imageUrl: News13,
-        title: "‘The Marvels’: Kamala Khan’s Family Goes to Space",
-        newsUrl: 'https://www.marvel.com/articles/movies/the-marvels-kamala-khan-family-space'
-    },
-    {
-        imageUrl: News9,
-        title: "First 'Deadpool & Wolverine' Teaser Debuts During The Big Game",
-        newsUrl: 'https://www.marvel.com/articles/movies/deadpool-and-wolverine-teaser'
-    },
-    {
-        imageUrl: News10,
-        title: "New MCU Timelines Arrive on Disney+",
-        newsUrl: 'https://www.marvel.com/articles/movies/mcu-timeline-order-disney-plus'
-    },
-    {
-        imageUrl: News11,
-        title: "‘The Marvels’ Lands on Disney+ on February 7",
-        newsUrl: 'https://www.marvel.com/articles/movies/the-marvels-on-disney-plus'
-    },
-    {
-        imageUrl: News12,
-        title: "New ‘Madame Web’ Featurette Dives into Cassandra Webb’s Story",
-        newsUrl: 'https://www.marvel.com/articles/movies/madame-web-featurette-cassandra-web'
-    },
-    {
-        imageUrl: News8,
         title: "Marvel Studios Announces 'Fantastic Four' Cast",
         newsUrl: 'https://www.marvel.com/articles/movies/fantastic-four-cast'
     },
     {
+        imageUrl: News6,
+        title: 'New MCU Timelines Arrive on Disney+',
+        newsUrl: 'https://www.marvel.com/articles/movies/mcu-timeline-order-disney-plus'
+    },
+    {
+        imageUrl: News7,
+        title: "'Alien: Romulus' Prelude Tie-in Comic Sheds Light on the Film's Main Threat",
+        newsUrl: 'https://www.marvel.com/articles/comics/alien-romulus-prelude-comic-zac-thompson-daniel-picciotto'
+    },
+    {
+        imageUrl: News8,
+        title: "See Why Mystique Is Marvel's Most Wanted in New Variant Covers",
+        newsUrl: 'https://www.marvel.com/articles/comics/mystique-1-2024-variant-covers'
+    },
+    {
+        imageUrl: News9,
+        title: "The Legendary Battle That Bridges the 'Star Wars' Trilogies Is Finally Told",
+        newsUrl: 'https://www.marvel.com/articles/comics/star-wars-battle-of-jakku-insurgency-rising-alex-segura'
+    },
+    {
+        imageUrl: News10,
+        title: "'Venom War' Tie-in Issues Spotlight the Fight to Be the True Venom, Carnage's Grasp at Godhood, & More",
+        newsUrl: 'https://www.marvel.com/articles/comics/venom-war-october-tie-in-issues'
+    },
+    {
+        imageUrl: News11,
+        title: "July 24's New Marvel Comics: The Full List",
+        newsUrl: 'https://www.marvel.com/articles/comics/july-24-2024-new-marvel-comics-collections-releases-full-list'
+    },
+    {
+        imageUrl: News12,
+        title: "'Moon Knight: Fist of Khonshu' #1 Variant Cover Brings Beloved Artist Stephen Platt Back to the Character",
+        newsUrl: 'https://www.marvel.com/articles/comics/moon-knight-fist-of-khonshu-1-variant-cover-stephen-platt'
+    },
+    {
+        imageUrl: News13,
+        title: "Kathryn Hahn’s Agatha Harkness Returns in 'Agatha All Along' Trailer",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/agatha-all-along-first-trailer'
+    },
+    {
         imageUrl: News14,
-        title: "‘The Marvels’: The Cast and Crew on Wrangling Flerkittens",
-        newsUrl: 'https://www.marvel.com/articles/movies/the-marvels-wrangling-goose-flerkittens'
+        title: "'Marvel’s Hit-Monkey' Hits New York in the Action-Packed Season 2 Trailer",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/marvels-hit-monkey-season-2-trailer'
     },
     {
         imageUrl: News15,
-        title: "Celebrate ‘The Marvels’ Opening Weekend with the Cast and Crew of the Movie",
-        newsUrl: 'https://www.marvel.com/articles/movies/the-marvels-opening-weekend-surprises'
+        title: "Marvel Animation's 'X-Men '97' Releases 'A New Age' Featurette",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/marvel-animations-x-men-97-releases-a-new-age-featurette'
     },
     {
         imageUrl: News16,
-        title: "Marvel Studios Updates Theatrical Release Schedule",
-        newsUrl: 'https://www.marvel.com/articles/movies/marvel-studios-theatrical-release-schedule-2024-2025'
+        title: "New 'X-Men '97' Posters Embrace the Nostalgia of Character Trading Cards",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/x-men-97-posters-character-trading-cards'
     },
     {
         imageUrl: News17,
-        title: "'The Marvels': Final Trailer Sets the Stakes for Captain Marvel",
-        newsUrl: 'https://www.marvel.com/articles/movies/the-marvels-final-trailer'
+        title: "'The Falcon and The Winter Soldier' and 'Moon Knight' Season 1 Coming to 4K UHD and Blu-ray",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/the-falcon-and-the-winter-soldier-moon-knight-4k-uhd-blu-ray'
     },
     {
         imageUrl: News18,
-        title: "Behind The Scenes of Marvel Studios' 'Black Panther: Wakanda Forever' with Ryan Coogler",
-        newsUrl: 'https://www.marvel.com/articles/movies/behind-the-scenes-marvel-studios-black-panther-wakanda-forever-ryan-coogler'
+        title: "‘X-Men ‘97’: Lead Character Artist Amelia Vidal on Reviving the Mutants",
+        newsUrl: 'https://www.marvel.com/articles/tv-shows/x-men-97-amelia-vidal-interview'
     },
+    // {
+    //     imageUrl: News18,
+    //     title: "Behind The Scenes of Marvel Studios' 'Black Panther: Wakanda Forever' with Ryan Coogler",
+    //     newsUrl: 'https://www.marvel.com/articles/movies/behind-the-scenes-marvel-studios-black-panther-wakanda-forever-ryan-coogler'
+    // },
 ];
 
 

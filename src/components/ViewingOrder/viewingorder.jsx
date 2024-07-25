@@ -4,12 +4,12 @@ import './viewingorder.css'
 const ViewingOrder = () => {
     return (
         <div className='viewing-order'>
-            <h1>Chronological Viewing Order</h1>
-            <p>The list is always being under construction, as the Marvel Cinematic Universe is still ongoing. We will try our best to keep the page as up to date as possible.</p>
-            <p>If you have a question, suggestion, or find an issue with the list, contact us at our Contact page Here.</p>
+            <h1 className='order-head'>Chronological Viewing Order</h1>
+            <p className='order-head-para'>The list is always being under construction, as the Marvel Cinematic Universe is still ongoing. We will try our best to keep the page as up to date as possible.</p>
+            <p className='order-head-para'>If you have a question, suggestion, or find an issue with the list, contact us at our Contact page Here.</p>
 
-            <h2>Marvel Phase 1</h2>
-            <ul>
+            <h2 className='order-h2'>Marvel Phase 1</h2>
+            <ul className='order-ul'>
                 <li>Iron Man (2008)</li>
                 <li>The Incredible Hulk (2008)</li>
                 <li>Iron Man 2 (2010)</li>
@@ -18,8 +18,8 @@ const ViewingOrder = () => {
                 <li>The Avengers (2012)</li>
             </ul>
 
-            <h2>Marvel Phase 2</h2>
-            <ul>
+            <h2 className='order-h2'>Marvel Phase 2</h2>
+            <ul className='order-ul'>
                 <li>Iron Man 3 (2013)</li>
                 <li>Thor: The Dark World (2013)</li>
                 <li>Captain America: The Winter Soldier (2014)</li>
@@ -28,8 +28,8 @@ const ViewingOrder = () => {
                 <li>Ant-Man (2015)</li>
             </ul>
 
-            <h2>Marvel Phase 3</h2>
-            <ul>
+            <h2 className='order-h2'>Marvel Phase 3</h2>
+            <ul className='order-ul'>
                 <li>Captain America: Civil War (2016)</li>
                 <li>Doctor Strange (2016)</li>
                 <li>Guardians of the Galaxy 2 (2017)</li>
@@ -43,8 +43,8 @@ const ViewingOrder = () => {
                 <li>Spider-Man: Far From Home (2019)</li>
             </ul>
 
-            <h2>Marvel Phase 4</h2>
-            <ul>
+            <h2 className='order-h2'>Marvel Phase 4</h2>
+            <ul className='order-ul'>
                 <li>WandaVision (2021)</li>
                 <li>The Falcon and the Winter Soldier (2021)</li>
                 <li>Loki (2021)</li>
@@ -65,8 +65,8 @@ const ViewingOrder = () => {
                 <li>Guardians of the Galaxy Christmas Special (2022)</li>
             </ul>
 
-            <h2>Marvel Phase 5</h2>
-            <ul>
+            <h2 className='order-h2'>Marvel Phase 5</h2>
+            <ul className='order-ul'>
                 <li>Ant-Man and the Wasp: Quantumania (2023)</li>
                 <li>Guardians of the Galaxy 3 (2023)</li>
                 <li>Secret Invasion (2023)</li>

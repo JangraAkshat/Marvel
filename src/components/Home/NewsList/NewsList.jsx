@@ -18,8 +18,11 @@ const NewsList = () => {
       column3.push(article);
     }
   });
+  
 
   return (
+    <div className='news'>
+      <h1 className='news-head'>Marvel News</h1>
     <div className='news-list'>
       <div className='column'>
         {column1.map((article, index) => (
@@ -54,6 +57,7 @@ const NewsList = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
