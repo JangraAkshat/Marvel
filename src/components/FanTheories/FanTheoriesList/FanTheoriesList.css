@@ -1,0 +1,16 @@
+.theory-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+  }
+  
+  .column {
+    width: 31.5%;
+  }
+  
+  .theory-card-container {
+    margin-bottom: 20px;
+  }
+  

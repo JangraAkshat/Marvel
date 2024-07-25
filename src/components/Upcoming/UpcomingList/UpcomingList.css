@@ -1,0 +1,31 @@
+.upcoming {
+    margin-top: 20px;
+  }
+  
+  .upcoming-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    gap: 30px;
+  }
+  
+  .upcoming-list .upcoming-card {
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  span {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .upcoming-head {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
