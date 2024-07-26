@@ -35,7 +35,7 @@ const Ask = () => {
   return (
     <div>
       <section className="ask">
-        <form onSubmit={onSubmit}>
+        <form className='ask-form' onSubmit={onSubmit}>
           <h1 className='ask-head1'>Have a Question?</h1>
           <h2 className='ask-head2'>Ask!</h2>
           <div className="input-box">
@@ -64,7 +64,7 @@ const Ask = () => {
               placeholder='Enter your message here'
               required></textarea>
           </div>
-          <button type='submit'>Send</button>
+          <button className='ask-button' type='submit'>Send</button>
         </form>
       </section>
     </div>

@@ -24,6 +24,9 @@ const Navbar = () => {
                     <Link to='/upcoming'>Upcoming</Link>
                 </li>
                 <li className='nav-item'>
+                    <Link to='/characters'>Characters</Link>
+                </li>
+                <li className='nav-item'>
                     <Link to='/theories'>Fan Theories</Link>
                 </li>
                 <li className='nav-item'>
