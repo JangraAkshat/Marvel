@@ -11,7 +11,7 @@ const Search = () => {
     const [comicData, setComicData] = useState(null);
     const [noResults, setNoResults] = useState(false);
     const [loading, setLoading] = useState(false);
-    const buttonRef = useRef(null); // Ref for the button
+    const buttonRef = useRef(null);
 
     const publicKey = process.env.REACT_APP_PUBLIC_KEY;
     const privateKey = process.env.REACT_APP_PRIVATE_KEY;
@@ -87,20 +87,20 @@ const Search = () => {
 
     const handleKeyPress = (e) => {
         if (e.key === 'Enter') {
-            e.preventDefault(); // Prevents the default form submission
+            e.preventDefault(); 
             if (buttonRef.current) {
-                buttonRef.current.classList.add('search-button-highlight'); // Add highlight class
+                buttonRef.current.classList.add('search-button-highlight'); 
                 setTimeout(() => {
-                    buttonRef.current.classList.remove('search-button-highlight'); // Remove highlight after a short delay
+                    buttonRef.current.classList.remove('search-button-highlight'); 
                 }, 300);
             }
-            getCharacterData(); // Trigger the search
+            getCharacterData(); 
         }
     };
 
     return (
         <div className="search-container">
-            <section className="search">
+            <div className="search">
                 <form className='search-form' onSubmit={handleSubmit}>
                     <h1 className='search-head1'>Search Marvel Characters</h1>
                     <div className="input-box">
@@ -110,14 +110,14 @@ const Search = () => {
                             className='search-field'
                             placeholder='Enter Character Name'
                             onChange={handleChange}
-                            onKeyPress={handleKeyPress} // Add the key press handler here
-                            value={characterName} // Bind the value here
+                            onKeyPress={handleKeyPress} 
+                            value={characterName} 
                             required
                         />
                     </div>
                     <div className="buttons">
                         <button
-                            ref={buttonRef} // Attach the ref to the button
+                            ref={buttonRef} 
                             className='search-button'
                             type='submit'
                         >
@@ -126,7 +126,7 @@ const Search = () => {
                         <button className='search-reset' type='button' onClick={handleReset}>Reset</button>
                     </div>
                 </form>
-            </section>
+            </div>
 
             <div className="misc">
                 {loading && (

@@ -7,6 +7,7 @@
   padding: 0;
   background-color: white;
   padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .characterCard {
@@ -78,5 +79,10 @@
 @media only screen and (max-width: 800px) {
   .characters {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .characterCard {
+    width: 75vw;
+    margin: 0 auto;
   }
 }
